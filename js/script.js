@@ -35,3 +35,13 @@ $(document).ready(function() {
   });
  
 });
+
+function foo(){
+  $("#input_image").hide();
+  $("#result_image").show();
+}
+
+function bar(){
+  $("#input_image").show();
+  $("#result_image").hide();
+}
